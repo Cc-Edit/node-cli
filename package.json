@@ -1,5 +1,5 @@
 {
-  "name": "node-cli",
+  "name": "nodeCli",
   "version": "1.0.0",
   "description": "使用 egg.js 搭建一套开箱即用的web服务",
   "private": true,
@@ -23,8 +23,8 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-node-cli",
-    "stop": "egg-scripts stop --title=egg-server-node-cli",
+    "start": "egg-scripts start --daemon --title=egg-server-nodeCli",
+    "stop": "egg-scripts stop --title=egg-server-nodeCli",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
@@ -41,6 +41,6 @@
     "type": "git",
     "url": ""
   },
-  "author": "wenqiang.li",
+  "author": "adminV",
   "license": "MIT"
 }
