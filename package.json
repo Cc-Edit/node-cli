@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "egg": "^2.26.0",
+    "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.13.0"
   },
   "devDependencies": {
