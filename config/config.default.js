@@ -20,7 +20,8 @@ module.exports = appInfo => {
 
   // squelize confid
   config.sequelize = {
-
+    dialect: 'mysql',
+    host: '127.0.0.1'
   };
 
   // add your user config here
