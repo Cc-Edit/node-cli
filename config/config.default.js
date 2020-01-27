@@ -18,6 +18,11 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
+  // squelize confid
+  config.sequelize = {
+
+  };
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
