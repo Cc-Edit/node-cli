@@ -13,5 +13,9 @@ module.exports = {
   sequelize: {
     enable: true,
     package: 'egg-sequelize'
+  },
+  io:{
+    enable: false,
+    package: 'egg-socket.io'
   }
 };
