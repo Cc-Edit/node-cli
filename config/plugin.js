@@ -18,4 +18,5 @@ module.exports = {
     enable: false,
     package: 'egg-socket.io'
   }
+  
 };
