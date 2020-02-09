@@ -14,9 +14,13 @@ module.exports = {
     enable: true,
     package: 'egg-sequelize'
   },
-  io:{
+  io: {
     enable: false,
     package: 'egg-socket.io'
+  },
+  vue: {
+    enable: true,
+    package: 'egg-view-vue',
   }
-  
+
 };

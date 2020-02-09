@@ -12,6 +12,7 @@
     "egg-scripts": "^2.13.0",
     "egg-sequelize": "^5.2.1",
     "egg-socket.io": "^4.1.6",
+    "egg-view-vue": "^1.0.0",
     "lodash": "^4.17.15",
     "mysql2": "^2.1.0"
   },
