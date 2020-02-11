@@ -25,6 +25,17 @@ module.exports = appInfo => {
     port: 3306
   };
 
+  // squelize confid
+  config.vue = {
+    // renderOptions config, please @see https://ssr.vuejs.org/en/api.html#renderer-options
+    renderOptions: {
+      // template: '<!DOCTYPE html><html lang="en"><body><!--vue-ssr-outlet--></body></html>',
+
+      // webpack vue ssr plugin build manifest file
+      // clientManifest: require(path.join(app.baseDir,'public/vue-ssr-client-manifest.json')),
+    }
+  };
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
