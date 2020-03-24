@@ -17,5 +17,9 @@ module.exports = {
   vue: {
     enable: true,
     package: 'egg-view-vue',
+  },
+  alinode: {
+    enable: true,
+    package: 'egg-alinode',
   }
 };

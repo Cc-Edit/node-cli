@@ -18,6 +18,12 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
+  config.alinode = {
+    // 从 `Node.js 性能平台` 获取对应的接入参数
+    appid: '84144',
+    secret: '25af055abe5677c55f9d4646bec1e27b5b822cfa',
+  };
+
   // squelize confid
   config.sequelize = {
     dialect: 'mysql',
