@@ -24,6 +24,7 @@ module.exports = appInfo => {
     secret: '25af055abe5677c55f9d4646bec1e27b5b822cfa',
   };
 
+
   // squelize confid
   config.sequelize = {
     dialect: 'mysql',
